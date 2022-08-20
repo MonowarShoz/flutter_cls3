@@ -49,11 +49,11 @@ class HomePage extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {
-              Navigator.push(context, MaterialPageRoute(
-                builder: (context) {
-                  return SecondPage();
-                },
-              ));
+              // Navigator.push(context, MaterialPageRoute(
+              //   builder: (context) {
+              //     return SecondPage();
+              //   },
+              // ));
             },
             icon: Icon(Icons.menu),
             color: Colors.black,
